@@ -13,4 +13,5 @@ def func(a,b,delay = 0):
     print('посчитал')
     return a*b
 
+
 a = func(3,4)
