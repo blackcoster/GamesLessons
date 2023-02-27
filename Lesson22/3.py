@@ -6,6 +6,7 @@ def decorator(func):
         print('конец функции')
     return wrapper
 
+
 @decorator
 def helloworld():
     print('Hello, world')
