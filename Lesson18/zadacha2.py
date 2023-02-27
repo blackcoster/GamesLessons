@@ -2,6 +2,7 @@ dict1 = {'b':2,
  'd':4,
  'a':1}
 
+
 # a=1 b=2 d=4
 
 def query(a):
