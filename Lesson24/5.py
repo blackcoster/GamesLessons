@@ -8,6 +8,7 @@ def decorator(func):
         func()
     return wrapper
 
+
 @decorator
 def hello():
     """здороваемся"""
