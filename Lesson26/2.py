@@ -19,6 +19,7 @@ class Game(arcade.Window):
        self.background_color = get_random_color()
 
 
+
 if __name__ == '__main__':
    game = Game()
    arcade.run()

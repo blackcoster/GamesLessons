@@ -11,7 +11,6 @@ class Game(arcade.Window):
     def on_draw(self):
        self.clear()
 
-
 if __name__ == '__main__':
    game = Game()
    arcade.run()
