@@ -17,3 +17,4 @@ while True:
             print(div(num1, num2))
         case _:
             print('неверно')
+
