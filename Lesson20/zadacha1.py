@@ -1,0 +1,6 @@
+tuple1 = tuple([i for i in range (5,26)])
+print(tuple1)
+print(tuple1[0])
+print(tuple1[-1])
+print(tuple1[len(tuple1)-1])
+print(tuple1[-5:])

@@ -1,0 +1,5 @@
+ #this is code
+print('hi')
+#this is function
+def func():
+	pass
