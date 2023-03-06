@@ -16,6 +16,7 @@ class Game(arcade.Window):
         self.player_list = None
         self.ground_list = None
         self.box_list = None
+
     def setup(self):
         self.player_list = arcade.SpriteList()
         image_source = ':resources:images/animated_characters/female_adventurer/femaleAdventurer_idle.png'

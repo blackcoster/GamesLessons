@@ -50,7 +50,6 @@ class Game(arcade.Window):
     def update(self, delta_time: float):
         pass
 
-
 if __name__ == '__main__':
     game = Game()
     game.setup()
