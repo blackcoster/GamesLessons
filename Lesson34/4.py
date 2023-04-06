@@ -40,7 +40,7 @@ class MyWindow(arcade.Window):
 
         self.manager.add(
             arcade.gui.UITexturePane(
-                arcade.gui.UIInputText(x=340,y=200,width=200,height=50,text=str(lives)),
+                child=arcade.gui.UIInputText(x=340,y=200,width=200,height=50,text=str(lives)),
                 tex= bg_tex,
                 padding=(10,10,10,10)
 
