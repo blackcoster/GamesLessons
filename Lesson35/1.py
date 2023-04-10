@@ -52,7 +52,7 @@ class MyGame(arcade.Window):
         self.view_bottom = 0
 
         self.light_layer = LightLayer(SCREEN_WIDTH, SCREEN_HEIGHT)
-        self.light_layer.set_background_color(arcade.color.YELLOW_ROSE)
+        self.light_layer.set_background_color(arcade.color.BLACK)
 
         radius = 150
         mode = 'soft'
