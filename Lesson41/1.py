@@ -36,7 +36,7 @@ class Player(sprite.Sprite):
         if not(left or right):
             self.xvel = 0
 
-        self.rect.x += self. # сдвигаем координаты игрока на значение смещения
+        self.rect.x += self.xvel # сдвигаем координаты игрока на значение смещения
 
     def draw(self):
         screen.blit(self.image,(self.rect.x, self.rect.y))
