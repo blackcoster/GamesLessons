@@ -16,8 +16,7 @@ class SpriteSheet():
 SIZE = WIDTH,HEIGHT = 500,500
 BG = (50,50,50)
 BLACK = (0,0,0)
-animation_list = []
-animation_steps = 4
+
 
 
 
