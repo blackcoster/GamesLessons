@@ -28,6 +28,7 @@ class Button:
         self.check_click()
 
     def check_click(self):
+        # global running
         mouse_pos = pygame.mouse.get_pos()
         if self.top_rect.collidepoint(mouse_pos):
             self.top_color = '#D73B4B'
@@ -37,7 +38,8 @@ class Button:
             else:
                 if self.pressed:
                     self.dynamic_elevation = self.elevation
-                    print('кнопка нажата')
+                    # running = False
+                    print('нажата кнопка')
                     self.pressed = False
         else:
             self.dynamic_elevation = self.elevation
