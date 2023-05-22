@@ -64,7 +64,7 @@ clock = pygame.time.Clock()
 
 FOV = math.pi/3
 HALF_FOV = FOV/2
-NUM_RAYS = 50
+NUM_RAYS = 120
 MAX_DEPTH = 800
 DELTA_ANGLE =FOV/NUM_RAYS
 DIST = NUM_RAYS/(2*math.tan(HALF_FOV))
